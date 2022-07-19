@@ -350,6 +350,7 @@ background-color: var(--primary-bg-color);
 .social-item{
     width: 44px;
     height: 44px;
+    margin-right: 8px;
     border-radius: 50%;
     }
 .social-network-link {
@@ -691,6 +692,9 @@ margin-right: 8px;
         align-items: center;
     
  }
+ .modal-icon:hover{
+    fill: var(--accent-color);
+  }
  .modal-icon{
     position: absolute;
     top: 5px;
@@ -698,7 +702,6 @@ margin-right: 8px;
     width: 18px;
     height: 18px;
     
-    fill: var(--title-text-color);
     justify-content: center;
     
    
